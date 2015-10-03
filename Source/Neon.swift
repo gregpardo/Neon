@@ -9,6 +9,9 @@
 #if os(iOS)
   import UIKit
   typealias View = UIView
+#elseif os(tvOS)
+    import UIKit
+    typealias View = UIView
 #else
   import Cocoa
   typealias View = NSView

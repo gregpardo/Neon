@@ -7,9 +7,11 @@
 //
 
 #if os(iOS)
-  import UIKit
+    import UIKit
+#elseif os(tvOS)
+    import UIKit
 #else
-  import Cocoa
+    import Cocoa
 #endif
 
 

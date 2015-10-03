@@ -8,6 +8,8 @@
 
 #if os(iOS)
   import UIKit
+#elseif os(tvOS)
+  import UIKit
 #else
   import Cocoa
 #endif
